@@ -10,4 +10,3 @@ function adjacentElementsProduct($inputArray) {
     }
     return $p;
 }
-?>
