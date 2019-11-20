@@ -18,4 +18,3 @@ function allLongestStrings($inputArray) {
     }
     return $arr;
 }
-?>
