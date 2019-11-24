@@ -19,4 +19,3 @@ function accum($s) {
     }
     return $exit;
 }
-?>
