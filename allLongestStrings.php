@@ -1,4 +1,8 @@
 <?php
+/*
+ *Function that returns another array containing all of its longest strings
+ *(task from app.codesignal.com)
+ */
 function allLongestStrings($inputArray) {
     $max = strlen($inputArray[0]);
     for($i = 0; $i < count($inputArray); $i++)
