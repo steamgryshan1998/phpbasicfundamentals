@@ -1,4 +1,9 @@
 <?php
+/*
+ *Function that determines whether it is possible to obtain a strictly increasing sequence by removing no more than one
+ *element from the array.
+ *(task from app.codesignal.com)
+ */
 function almostIncreasingSequence($sequence) {
     $am = 0;
     for($i = 0; $i < count($sequence)-1; $i++) {
