@@ -4,20 +4,19 @@
  *(task from app.codesignal.com)
  */
 function allLongestStrings($inputArray) {
-    $max = strlen($inputArray[0]);
+    $max = strlen($inputArray[0]);//set $inputArray[0] as a longest string by default
     for($i = 0; $i < count($inputArray); $i++)
     {
-        if (strlen($inputArray[$i]) > $max)
+        if (strlen($inputArray[$i]) > $max)//compare the current element if array with biggest string
         {
-            $max = strlen($inputArray[$i]);
+            $max = strlen($inputArray[$i]);// set new value of max if condition is met
         }
     }
-    echo $max;
     for($i = 0; $i < count($inputArray); $i++)
     {
         if(strlen($inputArray[$i]) == $max)
         {
-            $arr[]=$inputArray[$i];
+            $arr[]=$inputArray[$i];//create and rewrite new array that contains all longest strings of given array
         }
     }
     return $arr;
