@@ -1,8 +1,11 @@
 <?php
+/*
+ * Function that calculates the value of DNA
+ */
 function DNA_strand($dna) {
-    str_split($dna);
-    for($i = 0; $i < strlen($dna); $i++){
-        switch($dna[$i])
+    str_split($dna);//converting strong to an array
+    for($i = 0; $i < strlen($dna); $i++){//going along the array
+        switch($dna[$i])//selecting a specific value depending on the character of the variable
         {
             case 'A':
                 $dna[$i] = 'T';
@@ -30,4 +33,3 @@ function DNA_strand($dna) {
     }
     return $dna;
 }
-?>
