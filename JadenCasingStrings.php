@@ -5,4 +5,3 @@ function toJadenCase($string)
     echo $str;
     return $str;
 }
-?>
