@@ -14,4 +14,3 @@ function sortByHeight($a) {
     }
     return $a;
 }
-?>
