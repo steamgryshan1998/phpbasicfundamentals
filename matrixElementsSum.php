@@ -18,4 +18,3 @@ function matrixElementsSum($matrix) {
     }
     return $sum;
 }
-?>
