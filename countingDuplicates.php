@@ -11,4 +11,3 @@ function duplicateCount($text) {
     }
     return $m;
 }
-?>
