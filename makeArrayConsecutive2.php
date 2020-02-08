@@ -11,4 +11,3 @@ function makeArrayConsecutive2($statues) {
     }
     return $am;
 }
-?>
