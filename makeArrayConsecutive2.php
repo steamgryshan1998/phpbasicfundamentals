@@ -1,4 +1,8 @@
 <?php
+/*
+ * function that helps figure out the minimum number of additional statues needed.
+ * (task from app.codesignal.com)
+*/
 function makeArrayConsecutive2($statues) {
     $am = 0;
     sort($statues);
