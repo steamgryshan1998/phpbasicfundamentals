@@ -1,4 +1,8 @@
 <?php
+/*
+ * function that determines if ticket lucky or not.
+ * (task from app.codesignal.com)
+*/
 function isLucky($n) {
     $num = strval($n);
     str_split($num);
