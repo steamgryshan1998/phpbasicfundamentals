@@ -1,4 +1,8 @@
 <?php
+/*
+ * function that rearranges the people by their heights in a non-descending order without moving the trees.
+ * (task from app.codesignal.com)
+*/
 function sortByHeight($a) {
     for($i = 0; $i < count($a); $i++)
     {
