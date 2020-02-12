@@ -1,6 +1,7 @@
 <?php
 /*
  * Function that calculates the value of DNA
+ * (task from www.codewars.com)
  */
 function DNA_strand($dna) {
     str_split($dna);//converting strong to an array
