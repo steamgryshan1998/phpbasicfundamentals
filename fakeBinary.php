@@ -2,6 +2,7 @@
 /*
  * Function that replaces any digit below 5 with '0' and any digit 5 and above with '1' and returns the resulting string
  * from '0' and '1'
+ * (task from www.codewars.com)
  */
 function fake_bin(string $s): string {
     str_split($s);//converts given string to an array
