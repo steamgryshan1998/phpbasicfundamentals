@@ -1,6 +1,7 @@
 <?php
 /*
  * Function that finds the number of common characters between two given strings
+ * (task from app.codesignal.com)
  */
 function commonCharacterCount($s1, $s2) {
     str_split($s1);//converts first given string to an array
