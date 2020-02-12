@@ -1,4 +1,8 @@
 <?php
+/*
+ * Mumbling
+ * (task from www.codewars.com)
+*/
 function accum($s) {
     str_split($s);
     $exit = "";
