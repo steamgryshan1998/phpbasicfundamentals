@@ -4,14 +4,14 @@
  * (task from app.codesignal.com)
  */
 function centuryFromYear($year) {
-/*   if($year / 1000 <= 0.1)
+/*   if($year / 1000 <= 0.1) //first century detection
 {
 $century = 1;
 }   else
 {
 if($year % 100 == 0)  // symbol '%' means reminder of division
 {
-$century = $year / 100;
+$century = $year / 100;// if reminder equal 0
 } else {
 $century = ($year / 100) - (($year % 100)/100) + 1;
 }
