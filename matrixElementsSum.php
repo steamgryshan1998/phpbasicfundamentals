@@ -6,9 +6,9 @@
 */
 function matrixElementsSum($matrix) {
     $sum = 0;
-    for($i = 0, $counti = count($matrix); $i < $counti; $i++)
+    for($i = 0, $counti = count($matrix); $i < $counti; $i++)// i - row
     {
-        for($j = 0, $countj = count($matrix[$i]); $j < $countj; $j++)
+        for($j = 0, $countj = count($matrix[$i]); $j < $countj; $j++)//count($matrix[$i]) - amount of the columns
         {
             if($matrix[$i][$j] == 0)
             {
