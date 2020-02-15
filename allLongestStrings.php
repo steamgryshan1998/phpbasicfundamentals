@@ -1,6 +1,6 @@
 <?php
 /*
- *Function that returns another array containing all of its longest strings
+ *Function that returns the array containing all of its longest strings
  *(task from app.codesignal.com)
  */
 function allLongestStrings($inputArray) {
@@ -19,5 +19,5 @@ function allLongestStrings($inputArray) {
             $arr[]=$inputArray[$i];//create and rewrite new array that contains all longest strings of given array
         }
     }
-    return $arr;
+    return $arr;//return the array containing all longest strings of first given array
 }
