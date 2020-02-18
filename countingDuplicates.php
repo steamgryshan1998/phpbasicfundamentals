@@ -9,7 +9,7 @@ function duplicateCount($text) {
     $m = 0;
     foreach(count_chars($text, 1) as $i => $val)//iterate over the string
     {
-        if ($val > 1)
+        if ($val > 1)// checking if the character occurs more than once
         {
             $m++;
         }
