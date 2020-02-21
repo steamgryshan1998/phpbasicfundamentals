@@ -1,6 +1,6 @@
 <?php
 /*
- * Function that calculates the value of DNA
+ * Function that generates the value of the string
  * (task from www.codewars.com)
  */
 function likes( $names ) {
