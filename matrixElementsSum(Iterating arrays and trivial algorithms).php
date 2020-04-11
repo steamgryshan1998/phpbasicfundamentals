@@ -15,7 +15,6 @@ function matrixElementsSum($matrix) {
                 for ($n = $i; $n < $counti; $n++)
                 {
                     $matrix[$n][$j] = 0;
-                    echo $matrix[$n][$j];
                 }
             }
             $sum+=$matrix[$i][$j];
