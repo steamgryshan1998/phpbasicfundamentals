@@ -1,6 +1,6 @@
 <?php
 /**
- * Function that removes the anchors from the URL address
+ * Function that removes the anchors and everything after it from the URL address
  * (task from www.codewars.com)
  */
 function replaceAll($string) {
