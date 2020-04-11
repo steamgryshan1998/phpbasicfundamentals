@@ -7,6 +7,5 @@
 function toJadenCase($string)
 {
     $str = ucwords($string);//ucwords() uppercase the first character of each word in a string
-    //echo $str;
     return $str;
 }
