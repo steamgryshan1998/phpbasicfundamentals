@@ -1,0 +1,15 @@
+<?php 
+
+function FirstFactorial($num) {
+  $f = 1;
+  for($i = 1; $i <= $num; $i++){
+    $f *= $i;
+  }
+  return $f;
+
+}
+   
+// keep this function call here  
+echo FirstFactorial(fgets(fopen('php://stdin', 'r')));  
+
+?>
